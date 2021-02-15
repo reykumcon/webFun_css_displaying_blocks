@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 950px;
+    min-height: 600px;
+    background: burlywood;
+    padding: 20px;
+}
+
+.title {
+    width: 900px;
+    text-align: center;
+}
+
+
+.title img, h1{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.title img {
+    width: 100px;
+    height:auto;
+    background: white;
+}
+
+.title h1 {
+    width: 320px;
+}
+
+.content {
+    margin: 10px 150px 10px 120px;
+    text-align: center;
+}
+
+.content img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.content .blue_border {
+    border: 10px solid lightblue;
+    outline: 5px solid black;
+}
+
+.content .red_background {
+    background: lightcoral;
+    padding: 10px;
+    outline: 5px solid black;
+}
